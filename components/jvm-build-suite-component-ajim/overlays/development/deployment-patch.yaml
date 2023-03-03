@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-ajim
+  namespace: jvm-build-oshh-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:a9b300fefd5fe574f2d2c892d40ea5c47a87f381035b2e81f0800949edf25fec
+        name: container-image
+        resources: {}
+status: {}
