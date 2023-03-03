@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-ajim
     app.kubernetes.io/part-of: jvm-build-suite-application-mmuu
-  name: jvm-build-suite-componentm2qa
+  name: jvm-build-suite-componentpqkp
   namespace: jvm-build-oshh-tenant
 spec:
   port:
